@@ -45,6 +45,8 @@ public class ActionKeyWords {
 				
 		case "IE":
 				System.setProperty("webdriver.ie.driver","C:\\Users\\dell\\Documents\\SeleniumTest\\IEDriverServer.exe");
+				
+				//this code is added to resolve sendkeys typing slowly on ie
 				DesiredCapabilities myCap = DesiredCapabilities.internetExplorer();
 				myCap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 				myCap.setCapability("RequiredWindowFocus", true);
