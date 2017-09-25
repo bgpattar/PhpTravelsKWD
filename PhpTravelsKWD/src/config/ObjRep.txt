@@ -1,0 +1,11 @@
+#home page Obj
+link_Account=Login
+
+#login page Obj
+txtbx_Uname=inputEmail
+txtbx_Pword=inputPassword
+btn_Login=login
+
+#account menu Obj
+link_MyAccount=//*[@id=\'Secondary_Navbar-Account\']/a
+link_Logout=//*[@id=\'Secondary_Navbar-Account-Logout\']/a
