@@ -1006,3 +1006,110 @@ Session ID: d0569f55-f645-446e-a818-7654dc02a7f2
 2017-09-25 16:37:47,993 INFO  [Log] X 
 2017-09-25 16:37:47,993 INFO  [Log] X 
 2017-09-25 16:37:47,993 INFO  [Log] X 
+2017-09-25 22:33:14,493 INFO  [Log] method: get row count null 
+2017-09-25 22:36:09,514 INFO  [Log] util method: get cell data null 
+2017-09-25 22:36:09,514 INFO  [Log] -------------------------------------------------------- 
+2017-09-25 22:36:09,514 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-25 22:36:09,514 INFO  [Log] -------------------------------------------------------- 
+2017-09-25 22:36:09,528 INFO  [Log] entered opening Browser 
+2017-09-25 22:36:16,716 INFO  [Log] navigate to URL 
+2017-09-25 22:36:19,624 INFO  [Log] click_Account 
+2017-09-25 22:36:21,001 INFO  [Log] Entering the text value: bgpattar@gmail.com 
+2017-09-25 22:36:25,795 INFO  [Log] Entering the text value: @phpTravels1-2 
+2017-09-25 22:36:26,116 INFO  [Log] clicking Login button 
+2017-09-25 22:36:28,265 INFO  [Log] wait for application to load 
+2017-09-25 22:36:31,366 INFO  [Log] clicking MyAccount menu on home page 
+2017-09-25 22:36:31,618 INFO  [Log] clicking Logout menu option under account menu 
+2017-09-25 22:36:32,806 INFO  [Log] time to close the Browser 
+2017-09-25 22:36:34,341 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-25 22:36:34,341 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-25 22:36:34,341 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-25 22:36:34,341 INFO  [Log] X 
+2017-09-25 22:36:34,341 INFO  [Log] X 
+2017-09-25 22:36:34,341 INFO  [Log] X 
+2017-09-25 22:42:06,954 INFO  [Log] util method: get cell data null 
+2017-09-25 22:42:06,955 INFO  [Log] -------------------------------------------------------- 
+2017-09-25 22:42:06,955 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-25 22:42:06,955 INFO  [Log] -------------------------------------------------------- 
+2017-09-25 22:42:06,957 INFO  [Log] entered opening Browser 
+2017-09-25 22:42:10,553 INFO  [Log] navigate to URL 
+2017-09-25 22:42:13,687 INFO  [Log] click_Account 
+2017-09-25 22:42:14,541 INFO  [Log] Entering the text value: bgpattar@gmail.com 
+2017-09-25 22:42:19,265 INFO  [Log] Entering the text value: @phpTravels1-2 
+2017-09-25 22:42:19,608 INFO  [Log] clicking Login button 
+2017-09-25 22:42:21,481 INFO  [Log] wait for application to load 
+2017-09-25 22:42:24,567 INFO  [Log] clicking MyAccount menu on home page 
+2017-09-25 22:42:24,798 INFO  [Log] clicking Logout menu option under account menu 
+2017-09-25 22:42:25,837 INFO  [Log] time to close the Browser 
+2017-09-25 22:42:27,318 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-25 22:42:27,318 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-25 22:42:27,318 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-25 22:42:27,318 INFO  [Log] X 
+2017-09-25 22:42:27,318 INFO  [Log] X 
+2017-09-25 22:42:27,318 INFO  [Log] X 
+2017-09-27 16:25:12,522 INFO  [Log] util method: get cell data null 
+2017-09-27 16:25:12,523 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:25:12,523 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-27 16:25:12,523 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:25:12,525 INFO  [Log] entered opening Browser 
+2017-09-27 16:25:18,817 INFO  [Log] Class:util - Method: setCellData C:\Users\dell\git\SeleniumAutomation\PhpTravelsKWD\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-09-27 16:25:18,817 INFO  [Log] Class:util - Method: setCellData C:\Users\dell\git\SeleniumAutomation\PhpTravelsKWD\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-09-27 16:25:18,817 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:25:18,817 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-27 16:25:18,817 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:25:18,817 INFO  [Log] X 
+2017-09-27 16:25:18,817 INFO  [Log] X 
+2017-09-27 16:25:18,817 INFO  [Log] X 
+2017-09-27 16:26:34,018 INFO  [Log] util method: get cell data null 
+2017-09-27 16:26:34,018 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:26:34,018 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-27 16:26:34,018 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:26:34,018 INFO  [Log] entered opening Browser 
+2017-09-27 16:26:37,319 INFO  [Log] Class:util - Method: setCellData C:\Users\dell\git\SeleniumAutomation\PhpTravelsKWD\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-09-27 16:26:37,319 INFO  [Log] Class:util - Method: setCellData C:\Users\dell\git\SeleniumAutomation\PhpTravelsKWD\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2017-09-27 16:26:37,319 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:26:37,319 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-27 16:26:37,319 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:26:37,319 INFO  [Log] X 
+2017-09-27 16:26:37,319 INFO  [Log] X 
+2017-09-27 16:26:37,319 INFO  [Log] X 
+2017-09-27 16:28:25,179 INFO  [Log] util method: get cell data null 
+2017-09-27 16:28:25,179 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:28:25,179 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-27 16:28:25,179 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:28:25,195 INFO  [Log] entered opening Browser 
+2017-09-27 16:28:28,918 INFO  [Log] navigate to URL 
+2017-09-27 16:29:35,779 INFO  [Log] click_Account 
+2017-09-27 16:29:36,228 INFO  [Log] Entering the text value: bgpattar@gmail.com 
+2017-09-27 16:29:41,311 INFO  [Log] Entering the text value: @phpTravels1-2 
+2017-09-27 16:29:41,736 INFO  [Log] clicking Login button 
+2017-09-27 16:29:43,832 INFO  [Log] wait for application to load 
+2017-09-27 16:29:46,941 INFO  [Log] clicking MyAccount menu on home page 
+2017-09-27 16:29:47,183 INFO  [Log] clicking Logout menu option under account menu 
+2017-09-27 16:29:47,978 INFO  [Log] time to close the Browser 
+2017-09-27 16:29:49,517 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:29:49,517 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-27 16:29:49,517 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:29:49,517 INFO  [Log] X 
+2017-09-27 16:29:49,517 INFO  [Log] X 
+2017-09-27 16:29:49,517 INFO  [Log] X 
+2017-09-27 16:30:27,468 INFO  [Log] util method: get cell data null 
+2017-09-27 16:30:27,469 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:30:27,469 INFO  [Log] -----------------LogIn_01------------------ 
+2017-09-27 16:30:27,469 INFO  [Log] -------------------------------------------------------- 
+2017-09-27 16:30:27,470 INFO  [Log] entered opening Browser 
+2017-09-27 16:30:31,025 INFO  [Log] navigate to URL 
+2017-09-27 16:30:34,552 INFO  [Log] click_Account 
+2017-09-27 16:30:35,418 INFO  [Log] Entering the text value: bgpattar@gmail.com 
+2017-09-27 16:30:40,597 INFO  [Log] Entering the text value: @phpTravels1-2 
+2017-09-27 16:30:40,937 INFO  [Log] clicking Login button 
+2017-09-27 16:30:42,491 INFO  [Log] wait for application to load 
+2017-09-27 16:30:45,589 INFO  [Log] clicking MyAccount menu on home page 
+2017-09-27 16:30:45,839 INFO  [Log] clicking Logout menu option under account menu 
+2017-09-27 16:30:46,762 INFO  [Log] time to close the Browser 
+2017-09-27 16:30:47,986 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:30:47,986 INFO  [Log] ----------------- E  N D - O F - LogIn_01---------------- 
+2017-09-27 16:30:47,986 INFO  [Log] --------------------------------------------------------------------- 
+2017-09-27 16:30:47,986 INFO  [Log] X 
+2017-09-27 16:30:47,986 INFO  [Log] X 
+2017-09-27 16:30:47,986 INFO  [Log] X 

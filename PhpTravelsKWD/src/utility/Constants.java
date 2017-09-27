@@ -18,10 +18,10 @@ public class Constants {
 	public static final String PassWord = "@phpTravels1-2";
 	
 	//Test Data File name paths
+		
+	public static final String PathObjRep = "C:\\Users\\dell\\git\\SeleniumAutomation\\PhpTravelsKWD\\src\\config\\ObjRep.txt";
 	
-	public static final String PathObjRep = "C:\\Users\\dell\\workspace\\PhpTravelsKWD\\src\\config\\ObjRep.txt";
-	
-	public static final String PathTestData = "C:\\Users\\dell\\workspace\\PhpTravelsKWD\\src\\dataEngine\\";
+	public static final String PathTestData = "C:\\Users\\dell\\git\\SeleniumAutomation\\PhpTravelsKWD\\src\\dataEngine\\";
 	
 	//File names
 	
@@ -39,19 +39,19 @@ public class Constants {
 	
 	public static final int Col_TestScenarioID = 1 ;
 	
-	public static final int Col_PageObject = 3 ;
+	public static final int Col_PageObject = 4 ;
 	
-	public static final int Col_ActionKeyword = 4 ;
+	public static final int Col_ActionKeyword = 5 ;
 	
 	public static final int Col_RunMode = 2 ;
 	
-	public static final int Col_DataSet = 5;
+	public static final int Col_DataSet = 6;
 	
 	//Result columns in Test data sheet - OUTPUT
 	
 	public static final int Col_TestCaseResult = 3;
 	
-	public static final int Col_TestStepResult = 6;
+	public static final int Col_TestStepResult = 7;
 	
 	//Result values
 	
