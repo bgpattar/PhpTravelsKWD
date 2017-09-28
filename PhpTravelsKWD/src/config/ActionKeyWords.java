@@ -17,6 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import executionEngine.DriverScript;
 import utility.Constants;
 import utility.Log;
+import utility.Utils;
 
 public class ActionKeyWords {
 	
@@ -34,6 +35,7 @@ public class ActionKeyWords {
 				System.setProperty("webdriver.gecko.driver","C:\\Users\\dell\\Documents\\SeleniumTest\\geckodriver.exe");
 				driver = new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				//Utils.takeScreenshot(driver, Obj);
 				break;
 			
 		case "Chrome":
@@ -41,6 +43,7 @@ public class ActionKeyWords {
 				myProp.setProperty("webdriver.chrome.driver","C:\\Users\\dell\\Documents\\SeleniumTest\\chromedriver.exe");				
 				driver = new ChromeDriver();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				//Utils.takeScreenshot(driver, Obj);
 				break;
 				
 		case "IE":
@@ -53,6 +56,7 @@ public class ActionKeyWords {
 				myCap.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);								
 				driver = new InternetExplorerDriver(myCap);
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				//Utils.takeScreenshot(driver, Obj);
 				break;
 			}
 		
@@ -68,6 +72,7 @@ public class ActionKeyWords {
 			Log.info("navigate to URL");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(Constants.sURL2);
+			Utils.takeScreenshot(driver, Obj);
 		}catch(Exception e){
 			Log.info("method: navigate URL " + e.getMessage() );
 			DriverScript.bResult = false;
@@ -79,6 +84,7 @@ public class ActionKeyWords {
 				Log.info("click_Account");
 			
 				driver.findElement(By.linkText(ObjRep.getProperty(Obj))).click();
+				Utils.takeScreenshot(driver, Obj);
 				Set<String> sHandles = driver.getWindowHandles();
 				//Can this be removed??
 				driver.switchTo().window(sHandles.iterator().next());
@@ -96,6 +102,7 @@ public class ActionKeyWords {
 		try{
 		Log.info("Entering the text value: " + Data);	
 		 driver.findElement(By.id(ObjRep.getProperty(Obj))).sendKeys(Data);
+		 Utils.takeScreenshot(driver, Obj);
 		}catch(Exception e){
 			Log.info("method: input, Not able to input text " + e.getMessage() );
 			DriverScript.bResult = false;
@@ -116,6 +123,7 @@ public class ActionKeyWords {
 		try{
 		Log.info("clicking Login button");
 		 driver.findElement(By.id(ObjRep.getProperty(Obj))).click();
+		 Utils.takeScreenshot(driver, Obj);
 		}catch(Exception e){
 			Log.info("method: login, not able to click login button " + e.getMessage() );
 			DriverScript.bResult = false;
@@ -145,6 +153,7 @@ public class ActionKeyWords {
         xAct.moveToElement(xWL);
         xAct.click();
         xAct.perform();
+        Utils.takeScreenshot(driver, Obj);
         
 		}catch(Exception e){
 			Log.info("method: my Account, Not able to click on menu " + e.getMessage() );
@@ -157,6 +166,7 @@ public class ActionKeyWords {
 		Log.info("clicking Logout menu option under account menu");
 
 		driver.findElement(By.xpath(ObjRep.getProperty(Obj))).click(); //correct command
+		Utils.takeScreenshot(driver, Obj);
 		}catch(Exception e){
 			Log.info("method: logout, not able to click on sub-menu option" + e.getMessage() );
 			DriverScript.bResult = false;
@@ -173,4 +183,5 @@ public class ActionKeyWords {
 			DriverScript.bResult = false;
 		}
 	}
+		
 }

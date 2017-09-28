@@ -59,5 +59,8 @@ public class Constants {
 	
 	public static final String Keyword_Fail = "FAIL";
 	
+	//screenShots path
+	
+	public static final String Path_ScreenShot = "C:\\Users\\dell\\git\\SeleniumAutomation\\PhpTravelsKWD\\src\\screenShots\\";
 
 }
